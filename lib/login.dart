@@ -25,7 +25,7 @@ class _LogState extends State<Log> {
                   height: 25,),
                   Text('Login to your account',
                       style:
-                      TextStyle(fontSize: 15, fontWeight: FontWeight.bold)),
+                      TextStyle(fontSize: 15, fontWeight: FontWeight.normal)),
                 SizedBox(
                   height: 25,
                 ),
@@ -65,11 +65,17 @@ class _LogState extends State<Log> {
                       'LOGIN',
                       style: TextStyle(color: Colors.black),
                     )),
-
                 SizedBox(
-                  height: 30,
+                  height: 10,
                 ),
-        Image.network('image/345.jpg',),
+                Text('Login to your account',
+                    style:
+                    TextStyle(fontSize: 15, fontWeight: FontWeight.normal)),
+                SizedBox(
+                  height: 10,
+                ),
+        Image.network('image/345.jpg'),
+
               ],
             )),
       ),
