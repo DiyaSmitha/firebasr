@@ -60,7 +60,7 @@ class _LogState extends State<Log> {
                       Navigator.push(context, MaterialPageRoute(builder: (context) => Log() ,));
 
                     },
-                    style: ElevatedButton.styleFrom(primary: Colors.white),
+                    style: ElevatedButton.styleFrom(primary: Colors.blue),
                     child: Text(
                       'LOGIN',
                       style: TextStyle(color: Colors.black),
@@ -69,7 +69,7 @@ class _LogState extends State<Log> {
                 SizedBox(
                   height: 30,
                 ),
-        Image.network(''),
+        Image.network('image/345.jpg',),
               ],
             )),
       ),
