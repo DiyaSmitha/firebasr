@@ -40,7 +40,7 @@ class _LogState extends State<Log> {
                 hintText: 'Enter the data'),
           ),
           SizedBox(
-            height: 25,
+            height: 15,
           ),
           Align(alignment: Alignment.centerLeft, child: Text('Password')),
           TextField(
@@ -53,7 +53,7 @@ class _LogState extends State<Log> {
                 hintText: 'ENTER THE DATA'),
           ),
                 SizedBox(
-                  height: 25,
+                  height: 15,
                 ),
                 ElevatedButton(
                     onPressed: () {
